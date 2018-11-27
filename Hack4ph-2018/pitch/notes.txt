@@ -1,0 +1,64 @@
+
+
+The hook
+	Imagine if you know every local market and their product prices,
+	"Prices And Locations, at your fingertips."
+
+Notes
+
+1. From an economic point of view, less food waste means lower waste management costs for organisers and stallholders, 
+    as well as increased profit margins associated with the more efficient use of resource inputs and ingredients. 
+	Stallholders may also save on costs relating to production and processing, transport, storage and sale.
+2. From a social point of view, reducing food waste increases the supply of available food, contributing to food security.
+3. Positive environmental outcomes from reducing the amount of organic waste that goes to landfill include the reduction of the 
+   greenhouse gas methane and also leachate which can contaminate ground water. Diverting unavoidable food waste back into the food supply chain 
+   through feeding to animals or composting also helps recover precious resources essential to the production of food.
+
+   
+      
+The problem?
+	Food wastage sources are - Agriculture, Postharvest, Processing, Retail, Consumption
+	34% of foodwaste is in Postharvest, which includes those foods that is in our local markets. (acc to  US Food and Agriculture Organization)
+	34% is 430 Million tons, how much is it?
+		It is equivalent to 20 years of rice production in the whole philippines.
+	That is the food wastage in the whole world on postharvest.
+	
+	
+The target...
+	Decrease food wastage in stalls by 100% by Increasing the number of products sold to 100%.
+	
+
+The idea?
+	Online Market Produce Catalogue
+	Now we will apply this idea and redesign how local markets work by creating an 
+		Online Market Produce Catalogue which will let the consumers know exactly where to buy something with its prices.
+	
+	Increasing the sales of the stallholders = reduced food waste = more available foods = food security.
+	This will also balance the supply and demand of the produce.
+	
+The solution?
+	Suki....
+	 
+   
+What is it for the stallholders?
+	We promise better returns if they join the program. Because the more people to know their store, the more buyers.
+	Sellers will own a Product Inventory System that will give them seamless product management with 0 cost.
+
+What is it for the consumers?
+	It offers the best prices possible in the market.
+	Consumers can request for produce to be prepared before they arrive reducing the time spent in markets.
+	
+	
+Trust us..... why? 
+	Because we are a group of skilled developers who's very passionate and dedicated 
+		in reducing food waste and helping our people.
+	
+
+Timeframe for product development (target)
+	1-2	 Months		- Fully Developer Software
+	3-6  Months		- Deploy on First City
+	7-18 Months		- Expand on Near Cities
+	17-* Months		- Nationwide Use
+
+	
+	
