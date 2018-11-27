@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Suki</string>
+
+    <string name="price">Price: </string>
+    <string name="variation">Variation: </string>
+    <string name="stock">Stock: </string>
+    <string name="viewDetails">View Details </string>
+    <!--Create acc and Login-->
+    <string name="createAccount">Create Account</string>
+    <string name="emailAddress">Email Address</string>
+    <string name="emailAddressHint">Enter your Email</string>
+    <string name="password">Password</string>
+    <string name="passwordHint">Enter Password</string>
+    <string name="confPassword">Confirm Password</string>
+    <string name="confPasswordHint">Confirm Password</string>
+    <string name="supplier">Supplier</string>
+    <string name="reseller">Vendor</string>
+    <string name="individual">Individual</string>
+    <string name="doYouAlready">Do you already have an account?</string>
+    <string name="signIn">Signin</string>
+
+    <string name="dontYou">You don"'"t have an Account? </string>
+    <string name="register">Register</string>
+
+    <!--Personal Inf-->
+    <string name="personalInf">Personal Information</string>
+    <string name="fullName">Full Name</string>
+    <string name="fullNameHint">Enter your Full Name</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="bdate">Birth Date</string>
+    <string name="bdateHint">Select Birth Date</string>
+    <string name="completeAdd">Complete Address</string>
+    <string name="completeAddHint">Enter your Complete Address</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="mobileHint">Enter your Mobile Number</string>
+    <string name="note">Note: Please upload your ID to validate your account.</string>
+    <string name="uploadID">Upload ID</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+
+    <!--Business Name-->
+    <string name="businessInfo">Business Information</string>
+    <string name="businessName">Business Name</string>
+    <string name="businessNameHint">Enter your Business Name</string>
+    <string name="businessAdd">Business Address</string>
+    <string name="businessAddHint">Enter your Business Address</string>
+    <string name="businessPermitNo">Business Permit Number</string>
+    <string name="businessPermitNoHint">Enter Business Permit Number</string>
+    <string name="businessPhoto">Upload Store Photo</string>
+
+    <!---->
+    <string name="setupAcc">Set up Account</string>
+    <string name="setupProd">Set up Products</string>
+
+    <string name="youHaveNo">You have no added products yet :( Tap the "+" button below to add product.</string>
+    <string name="cont">Continue</string>
+
+    <!--Products-->
+    <string name="prodPhoto">Upload Product Photo</string>
+    <string name="prodName">Product Name</string>
+    <string name="prodNameHint">Enter Product Name</string>
+    <string name="prodQty">Product Quantity</string>
+    <string name="prodQtyHint">Enter Product Quantity</string>
+    <string name="prodPrice">Product Name</string>
+    <string name="prodPriceHint">Enter Product Price</string>
+    <string name="prodOrganic">Organic</string>
+    <string name="prodInorganic">Inorganic</string>
+    <string name="addProd">Add Product</string>
+
+
+    <!--Menu-->
+    <string name="newsFeed">Vendors</string>
+    <string name="myProd">My Products</string>
+    <string name="chat">Chat</string>
+    <string name="statistics">Statistics</string>
+    <string name="settings">Settings</string>
+    <string name="mainMenu">Main Menu</string>
+
+
+    <!--newsfeed-->
+    <string name="budget">Budget: </string>
+    <string name="qty">Quantity: </string>
+    <string name="loc">Location: </string>
+
+    <!--Settings-->
+    <string name="updateAcc">Update Account</string>
+    <string name="faqs">FAQs</string>
+    <string name="terms">Terms and Conditions</string>
+    <string name="contact">Contact Developer</string>
+    <string name="logout">Log out</string>
+
+    <string name="storeDesc">Store Description</string>
+    <string name="storeTags">Tags</string>
+    <string name="choose_photo">Choose Photo</string>
+
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.hackathon.suki.suki">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".modules.activities.SplashScreenActivity">
+
+        </activity>
+        <activity android:name=".modules.activities.RegisterActivity">
+        </activity>
+        <activity android:name=".modules.activities.LoginActivity"></activity>
+        <activity android:name=".modules.activities.SetUpAccountActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".modules.activities.SetUpProductsActivity"></activity>
+        <activity android:name=".modules.activities.MainMenuActivity">
+
+        </activity>
+        <activity android:name=".modules.activities.VendorActivity"></activity>
+        <activity android:name=".modules.activities.MyProductsActivity"></activity>
+        <activity android:name=".modules.activities.UpdateAccountActivity"></activity>
+        <activity android:name=".modules.activities.StatisticsActivity"></activity>
+        <activity android:name=".modules.activities.SettingsActivity"></activity>
+        <activity android:name=".modules.activities.ChatActivity"></activity>
+        <activity android:name=".modules.activities.ChatDetailsActivity"></activity>
+    </application>
+
+</manifest>

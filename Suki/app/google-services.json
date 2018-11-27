@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "425924375179",
+    "firebase_url": "https://suki-63cf1.firebaseio.com",
+    "project_id": "suki-63cf1",
+    "storage_bucket": "suki-63cf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425924375179:android:5935c56f1eb5d2aa",
+        "android_client_info": {
+          "package_name": "app.hackathon.suki.suki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425924375179-e9beagpmrkpml94l4a2lj8n5a0scohjf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI5tWDffxVbK7t8ylL4kdo44uomwfckTE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

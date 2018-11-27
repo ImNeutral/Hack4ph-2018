@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomInput">
+        <attr name="ci_header_text" format="string"/>
+        <attr name="ci_editText_input_hint" format="string"/>
+        <attr name="ci_editText_input_text" format="string"/>
+        <attr name="android:inputType"/>
+        <attr name="android:maxLength"/>
+        <attr name="android:enabled"/>
+    </declare-styleable>
+
+
+</resources>

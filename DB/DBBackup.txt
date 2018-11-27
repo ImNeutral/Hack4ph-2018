@@ -1,0 +1,116 @@
+DROP DATABASE suki;
+CREATE DATABASE suki;
+use suki;
+
+CREATE TABLE system_codes(
+	id 			int not null auto_increment primary key,
+    category 	VARCHAR (255),
+    VALUE 		VARCHAR (255)
+);
+
+
+CREATE TABLe municipalities(
+	id 					int not null AUTO_INCREMENT PRIMARY KEY,
+    municipality_name 	VARCHAR(255)
+);
+
+CREATE TABLE BARANGAYS (
+	id 					INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    municipality_id 	INT,
+    
+    barangay_name 		VARCHAR(255),
+    
+    CONSTRAINT barangay_municipality_id
+    	FOREIGN KEY (municipality_id) REFERENCES municipalities(id)
+    		ON DELETE CASCADE
+);
+
+CREATE TABLE users (
+    id 					INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	user_type 			INT NOT NULL,
+    barangay_id 		INT,
+    
+	first_name 			VARCHAR(50),
+    middle_name 		VARCHAR(50),
+    last_name 			VARCHAR(50),
+    email 				VARCHAR(320),
+    password 			TEXT,
+    birth_date 			DATE, 
+    contact_number 		VARCHAR(50),
+    user_photo 			TEXT,
+	
+    CONSTRAINT users_user_type
+        FOREIGN KEY(user_type) REFERENCES system_codes(id) 
+            ON DELETE CASCADE,
+    CONSTRAINT users_barangay_id
+        FOREIGN KEY(barangay_id) REFERENCES barangays(id) 
+            ON DELETE CASCADE
+);  
+
+CREATE TABLE user_business (
+	id 						INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	user_id					INT,
+	
+	business_name 			VARCHAR(100),
+    business_permit 		VARCHAR(100),
+    business_permit_photo 	TEXT,
+	
+	CONSTRAINT user_business_user_id 
+		FOREIGN KEY (user_id)
+			REFERENCES users(id)
+				ON DELETE CASCADE
+	
+);
+
+CREATE TABLE product_postings (
+	id 				INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	user_id			INT,
+	post_type		INT,
+	quantity_type	INT,
+	category		INT,
+	status			INT,
+	
+	product_name	VARCHAR(100),
+	quantity		DECIMAL(10,2),
+	price			DECIMAL(10,2),
+	product_description VARCHAR(255),
+	product_photo	TEXT,
+	created_at		TIMESTAMP,
+	updated_at		TIMESTAMP,
+	
+	CONSTRAINT product_postings_user_id
+		FOREIGN KEY (user_id)
+			REFERENCES users(id) 
+				ON DELETE CASCADE,
+	CONSTRAINT product_postings_post_type
+		FOREIGN KEY (post_type)
+			REFERENCES system_codes(id), 
+	CONSTRAINT product_postings_quantity_type
+		FOREIGN KEY (quantity_type)
+			REFERENCES system_codes(id),
+	CONSTRAINT product_postings_category
+		FOREIGN KEY (category)
+			REFERENCES system_codes(id),  
+	CONSTRAINT product_postings_status
+		FOREIGN KEY (status)
+			REFERENCES system_codes(id)
+); 
+
+ 
+CREATE TABLE product_posting_sales (
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	user_id INT,
+	product_posting_id INT,
+	quantity	DECIMAL(10,2),
+	price		DECIMAL(10,2),
+	
+	CONSTRAINT product_postings_sales_product_posting_id 
+		FOREIGN KEY (product_posting_id)
+			REFERENCES product_postings(id)
+				ON DELETE CASCADE,
+	CONSTRAINT product_posting_sales_user_id
+		FOREIGN KEY (user_id)
+			REFERENCES users(id)
+				ON DELETE CASCADE
+	
+);

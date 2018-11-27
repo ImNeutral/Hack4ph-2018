@@ -1,0 +1,3 @@
+UserController@store -> user_photo
+UserController@storeUserBusiness -> business_permit_photo
+
